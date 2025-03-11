@@ -1,0 +1,91 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  body {
+    font-family: 'Arial', sans-serif; /* Custom font */
+    background-color: #f9f9f9; /* Light background color */
+    color: #333; /* Dark text color for readability */
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+
+  nav {
+    background-color: #444; /* Dark background for the nav bar */
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none; /* Removes default bullet points */
+    display: flex; /* Arrange items in a row */
+    justify-content: center; /* Center the navigation items */
+    padding: 10px 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px; /* Spacing between navigation items */
+  }
+  
+  nav ul li a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* White text for contrast against dark background */
+    padding: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ffcc00; /* Change link color on hover */
+  }
+  
+  /* Main content styling */
+  main {
+    max-width: 800px; /* Constrain content width */
+    margin: 0 auto; /* Center the main content */
+    padding: 20px;
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraph styling */
+  p {
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  
+  /* Image styling */
+  img {
+    max-width: 100%; /* Responsive images */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 10px auto; /* Center images with margin */
+  }
+  
+  /* List styling */
+  ul, ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  /* Footer styling */
+  footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  
